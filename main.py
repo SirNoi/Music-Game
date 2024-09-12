@@ -1,3 +1,5 @@
 from login import login
-#Starts the game from the login menu
-login.login_menu()
+
+if __name__ == "__main__":
+    #Starts the game from the login menu
+    login.login_menu()
